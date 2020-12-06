@@ -3,8 +3,7 @@ from __future__ import unicode_literals
 
 from audioop import reverse
 
-from django.db.migrations import loader
-from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
 
 from django.shortcuts import render, get_object_or_404
 
